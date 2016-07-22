@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" href="../css/bootstrap.min.css"></link>
+        <style>
+        .son{
+            padding-left: 10px;
+            margin-left: 10px;
+            background-color: #fff;
+        }
+          
+        </style>
+    </head>
+    <body ng-app="myapp">
+        <div ng-controller="bookController"> 
+            <div book-name></div>
+        </div>
+        
+        <div ng-controller="homeController">
+            <my-directive></my-directive>
+        </div>
+        
+        <div ng-controller="relationController">
+            <dad></dad>
+        </div>
+    </body>
+</html>
+
+<script src="../js/lib/angular.min.js"></script>
+<script src="../js/lib/angular-route.min.js"></script>
+<script src="app.js"></script>
+
+<script type="text/javascript">
+    
+</script>
