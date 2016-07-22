@@ -13,7 +13,7 @@ myapp.controller('homeController',function($scope,$compile){
     var el = angular.element(templateString);
     var l = $compile(el);
     console.log(l);
-    
+    console.log(el);
     
 });
 
